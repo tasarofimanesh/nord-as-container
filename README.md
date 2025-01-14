@@ -4,6 +4,7 @@ This guide outlines how to create and use a Docker container that routes all out
 
 
 **How It Works**
+
 The container routes all outgoing traffic through a VPN tunnel (tun), except for SSH traffic.
 
 The VPN tunnel connects to the NordVPN server of the country specified in the start-vpn-xxx.sh script.
@@ -78,9 +79,9 @@ If pulling the image from DockerHub, update the start-vpn-xxx.sh script to repla
 Local machine folder: /etc/nord/config
 
 /etc/nord/config/
-  |- nord-trk.ovpn      # OpenVPN config for Turkey server
-  |- pass.txt           # NordVPN credentials
-  |- rootpass.txt       # Root SSH password for the container
+  nord-trk.ovpn      # OpenVPN config for Turkey server
+  pass.txt           # NordVPN credentials
+  rootpass.txt       # Root SSH password for the container
 
 **Additional Information**
 
