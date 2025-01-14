@@ -16,11 +16,11 @@ Example: start-vpn-trk.sh connects to the Istanbul server of NordVPN.
 
 Use the provided Dockerfile and start.sh script to build the Docker image locally:
 
-docker build -t nord .
+**docker build -t nord .**
 
 Alternatively, you can pull the pre-built image from DockerHub:
 
-docker pull hosdeburgh2/nord
+**docker pull hosdeburgh2/nord**
 
 If you pull the image from DockerHub, update the image name in the start-vpn-xxx.sh script from nord to hosdeburgh2/nord.
 
