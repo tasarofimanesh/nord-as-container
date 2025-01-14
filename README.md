@@ -2,7 +2,7 @@
 
 This guide outlines how to create and use a Docker container that routes all outgoing traffic (except SSH traffic) through a VPN tunnel (tun) connected to a NordVPN server. The VPN server location is specified using the start-vpn-xxx.sh script, where xxx represents the target country.
 
-How It Works
+**How It Works**
 
 The container routes all outgoing traffic through a VPN tunnel (tun), except for SSH traffic.
 
