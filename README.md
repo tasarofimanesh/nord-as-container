@@ -78,11 +78,11 @@ If pulling the image from DockerHub, update the start-vpn-xxx.sh script to repla
 
 Local machine folder: /etc/nord/config
 
-**nord-trk.ovpn**      # OpenVPN config for Turkey server
+------------**nord-trk.ovpn**      # OpenVPN config for Turkey server
 
-**pass.txt**          # NordVPN credentials
+------------**pass.txt**          # NordVPN credentials
 
-**rootpass.txt**       # Root SSH password for the container
+------------**rootpass.txt**       # Root SSH password for the container
 
 **Additional Information**
 
