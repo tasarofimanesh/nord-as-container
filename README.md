@@ -25,12 +25,15 @@ docker pull hosdeburgh2/nord
 If you pull the image from DockerHub, update the image name in the start-vpn-xxx.sh script from nord to hosdeburgh2/nord.
 
 **Configuration Files**
+
 The container requires the following configuration files to be mounted to /etc/nord/config inside the container. Ensure these files exist on the local machine:
 
+---------------------------------------
 **1. nord-xxx.ovpn**
 
 The OpenVPN configuration file for the NordVPN server of the target country (xxx).
 
+------------------------------------------
 **2. pass.txt**
 
 Contains your NordVPN account credentials.
@@ -38,8 +41,10 @@ Contains your NordVPN account credentials.
 Format:
 
 username
+
 password
 
+--------------------------------------------------------------------
 **3 -rootpass.txt**
 
 Contains the root password for connecting to the container via SSH.
