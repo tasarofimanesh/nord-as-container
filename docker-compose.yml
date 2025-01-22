@@ -1,7 +1,7 @@
 services:
   vpn-us:
     container_name: vpn-us
-    image: nord
+    image: hosdeburgh2/nord
     restart: unless-stopped
     ports:
       - "9091:9091"
@@ -16,7 +16,7 @@ services:
 
   vpn-trk:
     container_name: vpn-trk
-    image: nord
+    image: hosdeburgh2/nord
     restart: unless-stopped
     ports:
       - "9090:9090"
